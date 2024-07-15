@@ -293,6 +293,34 @@ filter: grayscale(100%);
 }
 
 
+.foot{
+    width: 1440px;
+    height: 100px;
+    
+border-radius: 8px;
+background: rgb(255, 244, 231);
+margin: 0 auto;
+justify-content: center;
+justify-items: center;
+align-items: center;
+
+}
+.footer-description{
+    color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 400;
+    text-align: center;
+align-items: center;
+padding: 38px 400px;
+}
+.foot-margin{
+    
+    margin: 130px 240px 200px 240px;
+}
+
+
+
 
 /* Responsive Media Query */
 @media screen and (max-width:576px){
