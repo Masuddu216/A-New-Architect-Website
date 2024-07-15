@@ -17,6 +17,7 @@
     font-size: 45px;
     font-weight: 700;
     line-height: 53px;
+    color: rgb(19, 19, 19);
 }
 
 
@@ -115,6 +116,53 @@ main>section{
 
 /* team-and-feature related  */
 
+
+.feature-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+
+}
+
+.love{
+    gap: 140px;
+}
+
+#experience-badge{
+    margin: 0 auto;
+    width: 340px;
+    height: 200px;
+    text-align: center;
+    margin-left: -92px;
+    margin-top: -200px;
+    
+   
+}
+#experience-year{
+    font-size: 65px;
+    font-weight: 600;
+  
+    
+}
+.expen{
+    Font-weight:
+600;
+Font-size:
+30px;
+}
+
+
+.feature-card{
+    
+    padding: 30px;
+    border-radius: 15px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+
 .teams{
     justify-content: center;
     align-items: center;
@@ -149,6 +197,10 @@ main>section{
     margin-bottom:32px ;
 }
 
+.one-side-border{
+    border-left: 7px solid tomato;
+    padding-left: 20px;
+}
 
 /* Some facts related styles */
 .facts-container{
@@ -236,7 +288,9 @@ text-align: center;
 .sponsors-companies img{
 filter: grayscale(100%);
 }
-
+.female-architect img{
+    width: 100%;
+}
 
 
 
@@ -277,9 +331,17 @@ filter: grayscale(100%);
         justify-items: center;
         align-items: center;
         gap: 24px;
+    }
+    #experience-badge{
+        margin: 0 auto;
+        width: 340px;
+        height: 200px;
+        text-align: center;}
         
-     
-    
+        
+
+    .love{
+        flex-direction: column;
     }
     .mid-figma{
        /* margin-left: 50px; */
@@ -325,6 +387,21 @@ filter: grayscale(100%);
         align-items: center;
        margin-left: 350px;
     }
+    .love{
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    #experience-badge{
+        margin: 0 auto;
+        width: 340px;
+        height: 200px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 230px;
+    }
+    
 
 }
 
